@@ -1,5 +1,4 @@
 console.log('Happy developing ✨')
-console.log("IM TRYING TO SEE IF WORKS DAMMIT")
 
 /*Pixelated borders*/
 function pixelateCorner(element, options={}){
