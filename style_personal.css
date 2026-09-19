@@ -184,12 +184,18 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 16px 40px;
+    align-items: flex-start;
+    gap: 24px 40px;
     width: 100%;
 }
-
-#connections p{
+.connection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex: 0 1 140px;   /* won't grow huge, can shrink, has a sane base width */
+}
+.connection p{
     margin: 0;
     text-align: center;
 }
