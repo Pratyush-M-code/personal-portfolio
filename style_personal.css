@@ -184,6 +184,10 @@ main{
     display: flex;
     gap: 40px;
 }
+#connections p{
+    margin: 0;
+    text-align: center;
+}
 #connections .fa-solid,
 #connections .fa-brands{
     display: inline-flex;
