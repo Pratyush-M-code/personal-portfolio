@@ -19,6 +19,8 @@ html{
     scrollbar-width: thin;
     scrollbar-color: #5FA85A #482b1a;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 p{
     font-size: 24px;
